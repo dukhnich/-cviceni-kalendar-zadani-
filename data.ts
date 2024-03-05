@@ -1,4 +1,4 @@
-import { CalendarItem } from "./model";
+import { CalendarItem } from "./model.js";
 
 export const calendarItems: CalendarItem[] = [
   {
@@ -26,7 +26,7 @@ export const calendarItems: CalendarItem[] = [
     done: false,
   },
   {
-    start: { hours: 9, minutes: 45, day: 1 },
+    start: { hours: 9, minutes: 45, day: 7 },
     name: "Ranní běh",
     type: "task",
     done: true,

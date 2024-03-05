@@ -1,7 +1,7 @@
 export interface Time {
   hours: number;
   minutes: number;
-  day: number;
+  day: 1 | 2 | 3 | 4 | 5 | 6 | 7;
 }
 
 interface BaseCalendarItem {
